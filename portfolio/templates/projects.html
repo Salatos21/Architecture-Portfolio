@@ -1,0 +1,493 @@
+{% extends "base.html" %}
+{% block title %}{{ t("projects_page_title") }}{% endblock %}
+
+{% block content %}
+<section class="projects-content">
+  <h1>{{ t("projects_title") }}</h1>
+  <p>{{ t("projects_intro") }}</p>
+
+  <h2 class="projects-section-title">
+    {{ t("projects_built_title") }}
+  </h2>
+
+  <!-- BUILT BUILDINGS GRID -->
+  <div class="projects-grid">
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Dniepr_Heroes_1.jpg') }}"
+             alt="{{ t('Dniepr_Heroes_1_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("project1_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Jmachenko-1.jpg') }}"
+             alt="{{ t('project2_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("project2_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Jmachenko-2.jpg') }}"
+             alt="{{ t('project3_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("project3_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Irininskaya_1.jpg') }}"
+             alt="{{ t('Irininskaya_1_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("project4_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Irininskaya_2.jpg') }}"
+             alt="{{ t('project5_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Irininskaya_3.jpg') }}"
+             alt="{{ t('project6_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Kanalnaya-1.jpg') }}"
+             alt="{{ t('project7_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("project7_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Kanalnaya-2.jpg') }}"
+             alt="{{ t('project8_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Kanalnaya-3.jpg') }}"
+             alt="{{ t('project9_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Silver Breeze_1.jpg') }}"
+             alt="{{ t('project10_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("project10_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Silver Breeze_2.jpg') }}"
+             alt="{{ t('project11_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Silver Breeze_3.jpg') }}"
+             alt="{{ t('project12_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/reno1.jpg') }}"
+             alt="{{ t('project13_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("project13_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/Reno2.jpg') }}"
+             alt="{{ t('project14_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+    <figure class="project-card">
+      <div class="project-media">
+        <img class="project-image"
+             src="{{ url_for('static', filename='projects/reno3.jpg') }}"
+             alt="{{ t('project15_alt') }}">
+      </div>
+      <figcaption class="project-caption">
+        <h3>{{ t("") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+  </div>
+
+  <!-- VISUALIZATIONS -->
+  <section class="projects-visualizations">
+    <h2 class="projects-section-title visualizations-title">
+      {{ t("projects_visualizations_title") }}
+    </h2>
+
+    <div class="projects-grid">
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/visualization_1.jpg') }}"
+               alt="{{ t('project16_alt') }}">
+        </div>
+      </figure>
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/visualization_2.jpg') }}"
+               alt="{{ t('project17_alt') }}">
+        </div>
+      </figure>
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/visualization_5.jpg') }}"
+               alt="{{ t('project18_alt') }}">
+        </div>
+      </figure>
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/visualization_4.jpg') }}"
+               alt="{{ t('project19_alt') }}">
+        </div>
+      </figure>
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/visualization_3.jpg') }}"
+               alt="{{ t('project20_alt') }}">
+        </div>
+      </figure>
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/visualization_6.jpg') }}"
+               alt="{{ t('project21_alt') }}">
+        </div>
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- DRAWINGS -->
+  <section class="projects-drawings">
+    <h2 class="projects-section-title drawings-title">
+      {{ t("projects_drawings_title") }}
+    </h2>
+
+    <div class="projects-grid">
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_1.jpg') }}"
+               alt="Architectural drawing">
+         </div>
+
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project22_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_2.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project23_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_3.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project24_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+
+      <figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_4.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project25_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_5.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project26_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_6.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project27_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_7.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project28_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_11.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project29_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_8.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project30_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_9.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project31_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_18.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project32_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_19.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project33_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_16.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project34_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_17.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project35_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_12.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project36_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_13.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project37_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_14.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project38_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+<figure class="project-card">
+        <div class="project-media">
+          <img class="project-image"
+               src="{{ url_for('static', filename='projects/drawing_15.jpg') }}"
+               alt="Architectural drawing">
+        </div>
+      <figcaption class="drawing-caption">
+        <h3>{{ t("project39_title") }}</h3>
+        <p>{{ t("") }}</p>
+      </figcaption>
+    </figure>
+
+
+
+
+
+
+    </div>
+  </section>
+
+</section>
+{% endblock %}
+
